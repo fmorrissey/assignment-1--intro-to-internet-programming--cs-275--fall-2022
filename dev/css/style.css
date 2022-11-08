@@ -1,17 +1,28 @@
-body {
-  background-color: green;
+body 
+{
+  color: green;
+  padding:20px;
+  margin: 0 auto;
 }
 
-table,
-td {
-  border: 1px solid black;
+table
+{
+  border-collapse: collaspse;
+  margin: 20px auto;
 }
 
-table {
-  border-collapse: collapse;
-  margin: 12px 0;
+td 
+{
+  test -align: center;
+  width:24px; 
+  height: 24px;
+  padding:24px;
+  border:1px solid grey;
 }
 
-td {
-  padding: 12px;
+highlight {
+  background-color: grey;
+  box-shadow: 0;
 }
+
+
