@@ -14,13 +14,13 @@ window.onload = () => {
     content = `<table>`;
 
     for(let i = 0; i < myNewArray.length; i++) {
-        content += `<code>`;
+        content += `<tr>`;
 
         for(let j = 0; j < myNewArray.length; j++) {
             content += `<td>${counter++}</td>`;
         }
 
-        content += `</code>`;
+        content += `</tr>`;
     }
 
     content += `</table>`;
